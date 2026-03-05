@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📄 CV Generator - Professional Application Portal
+A modern, high-performance web application designed for real-time professional CV generation.
+This project emphasizes a seamless User Experience (UX), rigorous data validation, and pixel-perfect print accuracy.
 
-## Getting Started
+🚀 Key Features
 
-First, run the development server:
+- Dynamic CV Generation: Users input data in real-time and instantly see the final document layout.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- A4 Precision Layout: Leverages advanced CSS techniques to ensure the document conforms perfectly to standard paper dimensions (210mm x 297mm).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Intelligent Validation: Integrated error protection ensures that only clean, accurate, and complete data is processed.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Print-Ready Functionality: An optimized "Print" feature that triggers the system print dialog for direct "Save as PDF" capability.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠 Tech Stack
+Built with a modern frontend architecture for speed, scalability, and type safety:
 
-## Learn More
+Technology and their roles in the project
 
-To learn more about Next.js, take a look at the following resources:
+1. Next.js -> React framework for routing and performance optimization.
+2. Tailwind CSS -> For full UI design, responsiveness, and specific print media rules.
+3. TypeScript -> For robust type safety and reducing runtime errors.
+4. React Hook Form -> Efficient form state management without unnecessary re-renders.
+5. Zod -> For strict schema validation of all user inputs.
+6. React-to-Print -> Managed DOM manipulation to convert specific components into print-ready formats.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📦 Installation & Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   git clone [your-repository-link]
+2. Install dependencies:
+   npm install
+3. Required Libraries (Integrated in this project): The following specialized libraries are used to handle validation and printing:
+   npm install react-hook-form @hookform/resolvers zod
+   npm install react-to-print  
+   npm install lucide-react
 
-## Deploy on Vercel
+4. Run the development server:
+   npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🚧 Project Status: Work in Progress
+This project is currently in an active development phase. While the core frontend functionality is complete, it is subject to significant updates and architectural changes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    Planned Roadmap & Upcoming Features:
+
+    - Database Integration |  Authentication | Full-Stack Architecture | Advanced Styling
